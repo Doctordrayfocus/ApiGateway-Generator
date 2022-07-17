@@ -3,6 +3,6 @@
 LANG ?= php
 
 # Commands
-setup:
+generate:
 	 chmod -R 775 bin
 	./bin/${LANG}/setup.sh
