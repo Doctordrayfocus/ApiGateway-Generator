@@ -33,8 +33,8 @@ then
 	cp -r ${DIR}/php/Datasource ${DIR_ROOT}/app
 
 	echo "Add Jobs"
-	rm -r ${DIR_ROOT}/app/jobs
-	cp -r ${DIR}/php/jobs ${DIR_ROOT}/app
+	rm -r ${DIR_ROOT}/app/Jobs
+	cp -r ${DIR}/php/Jobs ${DIR_ROOT}/app
 
 	echo "Add Services"
 	cp -r ${DIR}/php/Services ${DIR_ROOT}/app
