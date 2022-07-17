@@ -47,6 +47,8 @@ then
 	rm -r ${DIR_ROOT}/app/Http/Controllers
 	cp -r ${DIR}/php/Controllers ${DIR_ROOT}/app/Http
 
+	echo "Remove redundant files"
+    rm -r ${DIR}/php
 
 	echo "Templates setup successfully";
 fi
