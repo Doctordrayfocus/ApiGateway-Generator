@@ -24,28 +24,28 @@ then
 
 	echo "Add app.php"
 	rm -r ${DIR_ROOT}/bootstrap
-	cp -r ${DIR}/php/bootstrap ${DIR}
+	cp -r ${DIR}/php/bootstrap ${DIR_ROOT}
 
 	echo "Add Traits"
-	cp -r ${DIR}/php/Traits ${DIR}/app
+	cp -r ${DIR}/php/Traits ${DIR_ROOT}/app
 
 	echo "Add Datasource"
-	cp -r ${DIR}/php/Datasource ${DIR}/app
+	cp -r ${DIR}/php/Datasource ${DIR_ROOT}/app
 
 	echo "Add Jobs"
 	rm -r ${DIR_ROOT}/app/jobs
-	cp -r ${DIR}/php/jobs ${DIR}/app
+	cp -r ${DIR}/php/jobs ${DIR_ROOT}/app
 
 	echo "Add Services"
-	cp -r ${DIR}/php/Services ${DIR}/app
+	cp -r ${DIR}/php/Services ${DIR_ROOT}/app
 
 	echo "Add Example Models"
 	rm -r ${DIR_ROOT}/app/Models
-	cp -r ${DIR}/php/Models ${DIR}/app
+	cp -r ${DIR}/php/Models ${DIR_ROOT}/app
 
 	echo "Add Example Controllers"
 	rm -r ${DIR_ROOT}/app/Http/Controllers
-	cp -r ${DIR}/php/Controllers ${DIR}/app/Http
+	cp -r ${DIR}/php/Controllers ${DIR_ROOT}/app/Http
 
 
 	echo "Templates setup successfully";
